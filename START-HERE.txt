@@ -1,0 +1,14 @@
+COAL MINE CAMPGROUND — STANDALONE BOOKING APP
+
+1. Read README.md before deployment.
+2. Create a NEW Supabase project, run db/001_initial.sql once, and provision your staff account.
+3. Set up a verified email sender and Turnstile security widget.
+4. Upload these source files to a NEW private GitHub repository; import it into Vercel as Next.js.
+5. Add the secure hosting environment variables listed in README.md and arrange the five-minute authenticated email scheduler (on a compatible hosting plan).
+6. Sign in at /admin; configure real dates, taxes, times and policies.
+7. Complete the launch tests before opening reservations or linking your existing website.
+
+This is SOURCE CODE, not a double-click executable or a static drag-and-drop website.
+No payments are taken; guests pay at the campground.
+The old Hyperagent prototype and its test bookings are separate and unchanged.
+The app is not live, and no third-party accounts or domains have been configured for you.

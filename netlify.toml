@@ -1,0 +1,7 @@
+[build]
+command = "npm run build"
+publish = ".next"
+[build.environment]
+NODE_VERSION = "22"
+# Requires Netlify Next.js/OpenNext support. This is NOT a static drag-and-drop deployment.
+# Configure an external authenticated scheduler for /api/cron/email on Netlify.

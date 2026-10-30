@@ -1,0 +1,3 @@
+export type Unit={id:string;label:string;type:string;nightly_cents:number;active:boolean};
+export type Booking={id:string;reference:string;unit_id:string;type:string;guest_name:string;email:string;arrival:string;departure:string;nightly_cents:number;tax_bps:number;subtotal_cents:number;tax_cents:number;total_cents:number;status:'confirmed'|'cancelled';payment_status:string;version:number};
+export type Settings={id:number;accepting_bookings:boolean;season_start:string|null;season_end:string|null;tax_bps:number|null;tax_confirmed:boolean;policy:string;timezone:string;check_in:string;check_out:string};
